@@ -1,1 +1,3 @@
-# SimplePCAExample
+# Simple PCA method implementation
+
+This is a simple implementation of the PCA (Principal Component Analysis). The code has 2 parts in the first one it is using a small sample of points as a 2D dataset and creates the projected data using the PCA projector. In the second part the program uses a dataset that contains human faces. Then the program standardizes the dataset with 0 mean value and 1 standard diviation. Then we print the top-36 eigenvectors and the image they create. Lastly we use the PCA projector and only leave a certain about of K principal components and we recover the data to see what information we attained.
