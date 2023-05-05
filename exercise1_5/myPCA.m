@@ -11,9 +11,9 @@ function [U, S] = myPCA(X)
 U = zeros(n);
 S = zeros(n);
 
-% ====================== YOUR CODE GOES HERE ======================
+
 % Apply PCA by computing the eigenvectors and eigenvalues of the covariance matrix. 
-%
+
 
 R = (1/m)*X'*X;
 [U, S] = eig(R); %Calculating eigenvalue's and eigenvector's matricies
