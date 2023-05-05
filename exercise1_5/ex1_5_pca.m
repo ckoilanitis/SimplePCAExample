@@ -1,21 +1,4 @@
 %% Pattern Recognition 2023
-%  Exercise 1.5 | Principle Component Analysis
-%
-%  Instructions
-%  ------------
-%
-%  This file contains code that helps you get started on the
-%  exercise. You will need to complete the following functions:
-%
-%     myPCA.m
-%     projectData.m
-%     recoverData.m
-%     featureNormalize.m
-%
-%  Add your code in this file as requested in exercise 1 of HW1,
-%  or any other given files other than those mentioned above.
-%
-
 %% Initialization
 clear all; close all; clc
 
